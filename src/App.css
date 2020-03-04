@@ -1,0 +1,68 @@
+.App__Main{
+    /* min-height: calc(100vh - 60px); */
+    min-height:100vh;
+    height:auto;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+.App{
+    min-height:100vh;
+    /* height:auto;
+    width: 100%;  */
+}
+.App__Header{
+    height:60px;
+    width:100%;
+    position: fixed;
+    /* display:inline-block; */
+    /* background-color: grey; */
+    /* z-index: 2; */
+    
+    
+}
+
+
+.nav-links{
+    font-size:1.6em ;
+    text-decoration: none;
+}
+.nav-links .center p{
+    margin-left:15px;
+    margin-right:15px;
+     display:inline-block;
+    text-decoration: none;
+ }
+  .left {
+    background-color: black;
+    color: azure;
+   
+  }
+  
+  .right {
+    background-color: white;
+    color: black;
+  }
+  .black p{
+      color:black;
+      border-bottom: .9px solid black;
+  }
+  .white p{
+      color:white;
+      border-bottom: .9px solid white;
+
+  }
+
+  .center{
+  text-align: center;
+  width:33.33%;
+  margin:auto;
+  }
+  .nav-links .q-icon h1{
+      position: absolute;
+      top:0;
+      left:0;
+      color: yellow;
+    font-size: 3em;
+    color:white;
+  }
