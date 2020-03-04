@@ -2,3 +2,12 @@
     flex: 1;
     /* padding: .5em; */
   }
+  .right {
+    background-color: white;
+  color: black;
+  }
+  .left {
+    color: azure;
+    background-color: black;
+      
+}

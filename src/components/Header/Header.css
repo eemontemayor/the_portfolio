@@ -1,0 +1,26 @@
+.nav-links {
+  font-size: 1.6em;
+  text-decoration: none;
+  /* position: relative; */
+}
+.nav-links .center p {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+  width: 33.33%;
+  margin: auto;
+}
+#q-icon {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: yellow;
+  font-size: 3em;
+  color: white;
+}
