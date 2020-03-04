@@ -1,12 +1,12 @@
 .nav-links {
   font-size: 1.6em;
-  text-decoration: none;
+  /* text-decoration: none; */
   /* position: relative; */
 }
 .nav-links .center p {
   display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
+ 
+
   text-decoration: none;
 }
 
@@ -23,4 +23,16 @@
   color: yellow;
   font-size: 3em;
   color: white;
+}
+#work-link{
+  width:fit-content;
+  margin-right: 15px;
+color:white;
+border-bottom: .9px solid white;
+}
+#about-link{
+  margin-left: 17px;
+  width:fit-content;
+  color: black;
+  border-bottom: .9px solid black;
 }

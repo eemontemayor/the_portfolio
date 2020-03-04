@@ -9,11 +9,11 @@ export default function Header() {
       </NavLink>
 
       <div className="center">
-        <NavLink to={"/projects"} className="white">
+        <NavLink to={"/projects"} id="work-link">
           <p>work</p>
         </NavLink>
 
-        <NavLink to={"/about"} className="black">
+        <NavLink to={"/about"} id="about-link">
           <p>about</p>
         </NavLink>
       </div>

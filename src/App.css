@@ -8,7 +8,8 @@
 }
 .App{
     min-height:100vh;
-
+    /* height:auto;
+    width: 100%;  */
 }
 header{
     height:60px;
@@ -17,28 +18,4 @@ header{
     /* z-index: 2; */  
 }
 
-  .left {
-    color: azure;
-    background-color: black;
-      
-}
-.black{
-  
-  }
-  .white{
 
-
-  }
-  .right {
-    background-color: white;
-  color: black;
-  }
-  .black p{
-      color:black;
-      border-bottom: .9px solid black;
-  }
-  .white p{
-      color:white;
-      border-bottom: .9px solid white;
-
-  }
