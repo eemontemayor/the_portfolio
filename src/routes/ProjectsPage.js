@@ -4,10 +4,10 @@ import Split from '../components/Split/Split'
 export default function ProjectsPage(props) {
     return (
         <div className='ProjectsPage'>
-             <Split  className='left' flexBasis={2}>
+             <Split  className='black' flexBasis={2}>
                     
                     </Split>
-                    <Split className='right' flexBasis={2}>
+                    <Split className='white' flexBasis={2}>
                         
                     </Split>
         </div>

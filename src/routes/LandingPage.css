@@ -13,7 +13,7 @@
     height: 500px;
     background-color: #ff0000;
     border-radius: 250px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -24,9 +24,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.circ-content{
-    
+@keyframes spin {
+    from {  transform: rotate(0deg);}
+    to {  transform: rotate(360deg);}
+  }
+#circle:hover{
+    animation-name:spin;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color:blue;
+    transform: rotate(360deg);
+
+}
+.circ-content {
+   
+  height:fit-content;
+  width: fit-content;
+  /* background-color: pink; */
+  position: absolute;
+  z-index: 2;
 }
 
+.firstName{
+
+
+}
+.lastName{
+  
+
+}

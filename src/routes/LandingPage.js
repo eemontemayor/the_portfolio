@@ -19,13 +19,13 @@ export default class LandingPage extends React.Component {
             <section id="circle">
                 <div className='circ-content'>
 
-          <h2> Quique <br/>Montemayor</h2>
+          <h2><span className='firstName'>Quique</span>  <br/><span className='lastName'>Montemayor</span></h2>
                 <h1>Full Stack Developer</h1>
                 <Carousel blurbs={this.state.blurbs}/>
                 </div>
         </section>
-        <Split className="left" flexBasis={2}></Split>
-        <Split className="right" flexBasis={2}></Split>
+        <Split className="black" ></Split>
+        <Split className="white" ></Split>
       </div>
     );
   }

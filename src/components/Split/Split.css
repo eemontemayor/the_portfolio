@@ -1,13 +1,16 @@
 .split {
     flex: 1;
-    /* padding: .5em; */
+    padding: .5em;
   }
-  .right {
+  .white {
     background-color: white;
   color: black;
   }
-  .left {
+  .black {
     color: azure;
     background-color: black;
       
+}
+.pink{
+  background-color: pink;
 }
