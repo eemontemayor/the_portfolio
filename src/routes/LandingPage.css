@@ -7,8 +7,21 @@
     display: flex;
 
 }
-
-#circle {
+.circle-wrapper{
+  opacity:.95;
+  width: 600px;
+  height: 600px;
+  background-color: #00ff15;
+  border-radius: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+margin: auto;
+z-index: 1;
+}
+.circle {
     opacity:.95;
     width: 500px;
     height: 500px;
@@ -25,30 +38,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 2;
 }
+
 @keyframes spin {
     from {  transform: rotate(0deg);}
     to {  transform: rotate(360deg);}
   }
-#circle:hover{
+.circle-wrapper:hover{
+  opacity: .75;
     animation-name:spin;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     background-color:blue;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
 
 }
-.circ-content {
-    opacity: 1;
-   
+#circ-content {
+   transition: 0s;
+  position: fixed;
   height:fit-content;
   width: fit-content;
-  /* background-color: pink; */
+  background-color: pink;
   position: absolute;
   z-index: 2;
+
 }
 .circ-content h2{
 

@@ -8,8 +8,8 @@ export default class Carousel extends React.Component{
 }
 
 
-
-  componentDidMount() {
+// Landing page on hover.... the oppo side the user is hovering on will reveal the background image underneath
+  componentDidMount() {// transfer blurb array from props and use circle as a button that will change the quotes on click/hover
     const blurbArray = ['Whimsical Wordsmith', '1 Blah blah blah', '2 blah blah blah', '3 blah blah blah', 'Lover of Tacos', 'Endorphin Enthusiast']
     const pairedBlurbs = this.pairBlurbs(this.shuffleBlurbs(blurbArray))
     this.setState({
