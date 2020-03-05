@@ -3,6 +3,7 @@
   /* text-decoration: none; */
   /* position: relative; */
 }
+
 .nav-links .center p {
   display: inline-block;
  
@@ -16,13 +17,18 @@
   margin: auto;
 }
 #q-icon {
-  text-decoration: none;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  color: yellow;
-  font-size: 3em;
-  color: white;
+
+top:10px;
+left:10px;
+color:white;
+position:fixed;
+background-color: white;
+height:100px;
+width:100px;
+border-radius: 50px;
+}
+#q-icon:hover{
+  background-color: rgb(128, 66, 230);
 }
 #work-link{
   width:fit-content;
@@ -35,4 +41,12 @@ border-bottom: .9px solid white;
   width:fit-content;
   color: black;
   border-bottom: .9px solid black;
+}
+#about-link:hover {
+  color:rgb(209, 209, 2);
+  border-bottom: .9px solid  rgb(231, 231, 5);
+ }
+ #work-link:hover{
+  color:rgb(231, 231, 5);
+  border-bottom: .9px solid  rgb(231, 231, 5);
 }

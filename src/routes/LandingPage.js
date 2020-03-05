@@ -24,7 +24,7 @@ export default class LandingPage extends React.Component {
                 <Carousel blurbs={this.state.blurbs}/>
                 </div>
         </section>
-        <Split className="black" ></Split>
+        <Split className="pink" ></Split>
         <Split className="white" ></Split>
       </div>
     );

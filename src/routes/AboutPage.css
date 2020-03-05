@@ -1,6 +1,6 @@
 .AboutPage{
-    height: 100vh;
-    width: 100vw;
+    height:auto;
+    width: 100%;
     background-color: black;
     /* position: fixed; */
     /* opacity: 0 */
@@ -8,9 +8,9 @@
 
 }
 .img-cont{
-    height:auto;
+    height:100%;
     width:100%;
-    padding:1em;
+  
     margin:auto;
     
     display:flex;
@@ -24,5 +24,23 @@
     right: 0;
     bottom: 0;
     left: 0;
-    max-height:700px;
+    max-height:600px;
+}
+.about-text-container{
+
+    margin-top:150px;
+    display:flex;
+    justify-content: left; 
+     align-items: center; 
+     flex-direction: column;
+height:auto;
+width:95%;
+
+overflow-y: auto;
+}
+.about-text{
+    /* display: block; */
+   margin-bottom:50px;
+    margin: auto;
+font-size: 1.2em;
 }

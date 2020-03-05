@@ -9,6 +9,7 @@
 }
 
 #circle {
+    opacity:.95;
     width: 500px;
     height: 500px;
     background-color: #ff0000;
@@ -41,12 +42,16 @@
 
 }
 .circ-content {
+    opacity: 1;
    
   height:fit-content;
   width: fit-content;
   /* background-color: pink; */
   position: absolute;
   z-index: 2;
+}
+.circ-content h2{
+
 }
 
 .firstName{
