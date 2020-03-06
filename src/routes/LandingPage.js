@@ -1,3 +1,5 @@
+'use strict';
+
 import React from "react";
 import Split from "../components/Split/Split";
 import "./LandingPage.css";
@@ -6,22 +8,47 @@ export default class LandingPage extends React.Component {
 
 
     state = {
-      blurb1: '',
-      blurb2: '',
-      pairedBlurbs:[]
+      blurb1: 'Critical Thinker For Hire',
+      blurb2: 'Sentient Bag of StarDust',
+      blurbPairs:[]
     }
 
 
   
-// Landing page on hover.... the oppo side the user is hovering on will reveal the background image underneath
-componentDidMount() {// transfer blurb array from props and use circle as a button that will change the quotes on click/hover
-  const blurbArray = ['Whimsical Wordsmith', '1 Blah blah blah', '2 blah blah blah', '3 blah blah blah', 'Lover of Tacos', 'Endorphin Enthusiast']
+
+  componentDidMount() {
+
+  
+
+  
+  const blurbArray = ['Whimsical Wordsmith', '1 Blah blah blah', '2 blah blah blah', 'Cosmopolitan-Curious', 'Alliterative Aficionado', 'Endorphin Enthusiast']
   const pairedBlurbs = this.pairBlurbs(this.shuffleBlurbs(blurbArray))
+
   this.setState({
-    blurb1: pairedBlurbs[0][0],
-    blurb2:pairedBlurbs[0][1],
     blurbPairs: pairedBlurbs
   })
+
+}
+
+
+  pairBlurbs = (arr) => {
+  
+  const lastBlurbObj = 
+  {
+    blurb1: 'Lover of Wisdom',
+    blurb2: 'And Tacos'
+  }
+  
+  let input = arr 
+
+  let result = [
+    {blurb1:input[0], blurb2:input[1]},
+    {blurb1:input[2], blurb2:input[3]},
+    {blurb1:input[4], blurb2:input[5]}, 
+    lastBlurbObj
+  ]
+
+  return result
 
 }
 shuffleBlurbs = (arr) => {
@@ -49,45 +76,30 @@ shuffleBlurbs = (arr) => {
 
  return shuffle(blurbArr) 
 }
-
-pairBlurbs = (arr) => {
-  const firstArr = ['Critical Thinker For Hire', 'Sentient Bag of StarDust']
-  const lastArr= [' blah blha blah bbbla ','Ran out of ideas']
-  
-  let input = arr 
-
-  let combArr = [
-    firstArr,
-    [input[0], input[1]],
-    [input[2], input[3]],
-    [input[4], input[5]],
-    // [input[6], input[7]],
-    lastArr
-  ]
-  // console.log(combArr)
-  return combArr
-
-}
   
   handleClick = () => {
-    // const lastArr= [' blah blha blah bbbla ','Ran out of ideas']
+
     let arr = this.state.blurbPairs
-    let oldBlurbs= arr.shift()
-    let newBlurb1 = arr[0][0]
-    let newBlurb2 = arr[0][1]
-    arr.push([oldBlurbs])
+    let oldBlurbs = {
+      blurb1: this.state.blurb1,
+      blurb2:this.state.blurb2
+    }
     
+    arr.push(oldBlurbs)
+    let newBlurbs = arr.shift()
+   
+
   this.setState({
-    blurb1: newBlurb1,
-    blurb2: newBlurb2,
+    blurb1: newBlurbs.blurb1,
+    blurb2: newBlurbs.blurb2,
     blurbPairs:arr
-  }, () => {
-      console.log(this.state)
   })
   }
 
  
   render() {
+    let blurb1 = this.state.blurb1
+    let blurb2 = this.state.blurb2
     return (
       <div className="LandingPage">
         <div className='circle-wrapper'>
@@ -97,7 +109,7 @@ pairBlurbs = (arr) => {
 
           <h2><span className='firstName'>Quique</span>  <br/><span className='lastName'>Montemayor</span></h2>
                 <h1>Full Stack Developer</h1>
-                <Carousel blurb1={this.state.blurb1} blurb2={this.state.blurb2}/>
+                <Carousel blurb1={blurb1} blurb2={blurb2}/>
                 </div>
         </section>
         </div>

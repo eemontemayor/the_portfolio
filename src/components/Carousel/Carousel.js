@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import './Carousel.css'
 export default function Carousel(props){
   let blurb1 = props.blurb1
