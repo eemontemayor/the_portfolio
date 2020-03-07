@@ -7,47 +7,52 @@
     display: flex;
 
 }
-.circle-wrapper{
+.circle{
   opacity:.95;
-  width: 600px;
-  height: 600px;
-  background-color: #00ff15;
-  border-radius: 300px;
+  
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 margin: auto;
-z-index: 1;
+
 }
-.circle {
-    opacity:.95;
-    width: 500px;
-    height: 500px;
-    background-color: #ff0000;
-    border-radius: 250px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    text-align: center;
-    font-size:1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+ 
+.circle.large{
+  width: 600px;
+  height: 600px;
+  background-color: #7e0433;
+  border-radius: 300px;
+}
+.circle.medium{
+  opacity:.90;
+  width: 550px;
+  height: 550px;
+  background-color: red;
+  border-radius: 275px;
+  z-index: 2;
+}
+.circle.small{
+  z-index: 3;
+  opacity:.95;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  border-radius: 250px;
 }
 
-@keyframes spin {
+@keyframes spin-ccw {
+  from {  transform: rotate(0deg);}
+  to {  transform: rotate(-360deg);}
+}
+@keyframes spin-cw {
     from {  transform: rotate(0deg);}
     to {  transform: rotate(360deg);}
   }
-.circle-wrapper:hover{
-  opacity: .75;
-    animation-name:spin;
+.circle.medium:hover{
+ 
+    animation-name:spin-cw;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
     animation-duration: 10s;
@@ -56,25 +61,53 @@ z-index: 1;
     /* transform: rotate(360deg); */
 
 }
-#circ-content {
-   transition: 0s;
-  position: fixed;
-  height:fit-content;
-  width: fit-content;
-  background-color: pink;
-  position: absolute;
-  z-index: 2;
 
-}
-.circ-content h2{
-
-}
-
-.firstName{
-
-
-}
-.lastName{
+.circle.large:hover{
   
+    animation-name:spin-ccw;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color:green;
+    /* transform: rotate(360deg); */
+    border:2px dotted pink;
+}
 
+.circle.small:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+section#circ-content {
+  opacity: 2;
+   text-align: center;
+   color:white;
+  position: fixed;
+ height: 480px;
+ width:480px;
+ border-radius: 240px;
+text-align: center;
+ margin: auto;
+ 
+ 
+ font-size: 1.5em;
+ 
+}
+#circ-content h2{
+
+}
+
+#circ-content h2 span.firstName{
+  font-size: 1.1em;
+
+}
+#circ-content h2 span.lastName{
+  font-size: 1.2em;
+
+}
+#circ-content h1.title{
+  color:yellow;
+  font-size: 2.2em;
+  font-family: cursive;
 }
