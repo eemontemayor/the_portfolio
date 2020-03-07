@@ -77,19 +77,25 @@ export default class LandingPage extends React.Component {
 
   handleClick = () => {
     let arr = this.state.blurbPairs;
-    let oldBlurbs = {
-      blurb1: this.state.blurb1,
-      blurb2: this.state.blurb2
-    };
+    let newBlurbs={}
+    // let oldBlurbs = {
+    //   blurb1: this.state.blurb1,
+    //   blurb2: this.state.blurb2
+    // };
 
-    arr.push(oldBlurbs);
-    let newBlurbs = arr.shift();
+    // arr.push(oldBlurbs);
 
-    this.setState({
-      blurb1: newBlurbs.blurb1,
-      blurb2: newBlurbs.blurb2,
-      blurbPairs: arr
-    });
+    if (arr.length) {
+      
+      newBlurbs = arr.shift();
+      this.setState({
+        blurb1: newBlurbs.blurb1,
+        blurb2: newBlurbs.blurb2,
+        blurbPairs: arr
+      });
+    }
+
+   
   };
 
   render() {
