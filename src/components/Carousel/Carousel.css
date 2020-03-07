@@ -1,8 +1,17 @@
 .blurb1{
     font-size: 1.2em;
-    
+    animation:fadeIn 2s
 }
 .blurb2{
     font-size: 1.1em;
-    
+    animation: fadeIn 3s;
 }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

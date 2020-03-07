@@ -20,16 +20,21 @@ margin: auto;
 }
  
 .circle.large{
+  opacity:.6;
   width: 600px;
   height: 600px;
-  background-color: #7e0433;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  
   border-radius: 300px;
 }
 .circle.medium{
-  opacity:.90;
+  opacity:.8;
   width: 550px;
   height: 550px;
-  background-color: red;
+  background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
   border-radius: 275px;
   z-index: 2;
 }
@@ -55,7 +60,7 @@ margin: auto;
     animation-name:spin-cw;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     background-color:blue;
     /* transform: rotate(360deg); */
@@ -67,11 +72,11 @@ margin: auto;
     animation-name:spin-ccw;
     animation-timing-function: linear;
     animation-fill-mode: backwards;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
-    background-color:green;
-    /* transform: rotate(360deg); */
-    border:2px dotted pink;
+  
+    
+
 }
 
 .circle.small:hover{
@@ -98,16 +103,17 @@ text-align: center;
 
 }
 
-#circ-content h2 span.firstName{
+#circ-content h2.firstName{
   font-size: 1.1em;
 
 }
-#circ-content h2 span.lastName{
+#circ-content h2.lastName{
   font-size: 1.2em;
 
 }
 #circ-content h1.title{
   color:yellow;
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-family: cursive;
+  font-variant: small-caps;
 }
