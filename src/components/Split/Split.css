@@ -1,6 +1,10 @@
 .split {
     flex: 1;
-    padding: .5em;
+    /* padding: .5em; */
+    width:50vw;
+    height:100vh;
+    /* min-height: max-content; */
+    
   }
   .white {
     background-color: white;
