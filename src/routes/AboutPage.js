@@ -5,13 +5,13 @@ import about from '../images/about.jpg'
 export default function AboutPage(props) {
     return (
         <div className='AboutPage'>
-            <Split className='black'  >
+            <Split className='black' id='about-mob-img'  >
                 <div className='about-img-cont'>
 
                     <img src={about}  className='about-img'alt='a dastardly handsome dog' />
                 </div>
                     </Split>
-                    <Split className='white' >
+                    <Split className='white'id='about-mob-txt'  >
                 <section className='about-text-container'>
                     <p className='about-text'>
                         I am a full-stack developer based in Austin, Tx. Before enrolling in Thinkful's Engineering Immersion Program this past January, I was teaching philosophy at the university level. Now, I am excited about this new phase in my life and eager to continue building on what I have already learned.

@@ -14,7 +14,7 @@ export default class LandingPage extends React.Component {
 
 
   //todo: use styled components to make sure the blurbs fade in
-  // Landing page should stop on lover of tacos
+  
   //about me page: image flip on scroll? 
   //fix mobile before doing projects page
 
@@ -37,7 +37,7 @@ export default class LandingPage extends React.Component {
   pairBlurbs = arr => {
     const lastBlurbObj = {
       blurb1: "Lover of Wisdom",
-      blurb2: "And Tacos"
+      blurb2: "...And Tacos"
     };
 
     let input = arr;

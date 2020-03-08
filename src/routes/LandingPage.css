@@ -116,3 +116,30 @@ section#circ-content {
   font-family: cursive;
   font-variant: small-caps;
 }
+
+@media only screen and (max-width: 700px) {
+
+  .circle.large{
+  display: none;
+  }
+  .circle.medium{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  }
+  .circle.small{
+    width: 350px;
+    height: 350px;
+    border-radius: 225px;
+  }
+  section#circ-content {
+  
+   height: 350px;
+   width:350px;
+   border-radius: 225px;
+  
+   
+   font-size: 1.1em;
+   
+  }
+}

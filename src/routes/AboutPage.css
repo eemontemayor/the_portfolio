@@ -52,3 +52,29 @@ font-size:20px;
     padding-right: 30px;
 font-size: 1.5em;
 }
+@media only screen and (max-width: 700px) {
+
+    div.about-img-cont{
+        display: block;
+        width: 100%;
+       max-height:200px;
+    }
+    img.about-img{
+        height: auto;
+        margin:auto;
+    
+        position: fixed;
+        top:0;
+        width:90%;
+      
+       
+        /* max-height:400px; */
+        
+    }
+    #about-mob-img{
+
+    }
+    #about-mob-txt{
+        
+    }
+}
