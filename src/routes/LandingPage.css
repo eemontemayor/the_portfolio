@@ -25,32 +25,47 @@ margin: auto;
 }
  
 .circle.large{
-  opacity:.6;
+  opacity:.8;
   width: 600px;
   height: 600px;
   background-color: #FFE53B;
   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   
   border-radius: 300px;
+
+  animation-name:spin-ccw;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+
+  
 }
 .circle.medium{
-  opacity:.8;
+  opacity:.9;
   width: 550px;
   height: 550px;
   background-color: #FEE140;
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 
   border-radius: 275px;
-  z-index: 2;
+  /* z-index: 1; */
+
+  animation-name:spin-cw;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+
 }
 .circle.small{
-  z-index: 3;
-  opacity:.95;
+
+  opacity:.8;
   width: 500px;
   height: 500px;
   background-color: black;
   border-radius: 250px;
- 
+ z-index: 2;
 }
 
 @keyframes spin-ccw {
@@ -61,29 +76,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
     from {  transform: rotate(0deg);}
     to {  transform: rotate(360deg);}
   }
-.circle.medium:hover{
- 
-    animation-name:spin-cw;
-    animation-timing-function: linear;
-    animation-fill-mode: backwards;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    background-color:blue;
-    /* transform: rotate(360deg); */
 
-}
-
-.circle.large:hover{
-  
-    animation-name:spin-ccw;
-    animation-timing-function: linear;
-    animation-fill-mode: backwards;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-  
-    
-
-}
 
 .circle.small:hover{
   opacity: 1;
@@ -91,7 +84,8 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 }
 
 section#circ-content {
-  opacity: 2;
+  z-index: 7;
+  opacity: 1;
    text-align: center;
    color:white;
   position: fixed;

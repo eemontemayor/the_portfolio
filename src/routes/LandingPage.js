@@ -107,7 +107,7 @@ export default class LandingPage extends React.Component {
     return (
       <div className="LandingPage">
         <div className="circle small" onClick={this.handleClick}>
-             <section id="circ-content">
+             <section className='circle' id="circ-content">
           
             <h2 className="firstName">Quique</h2> <br />
             <h2 className="lastName">Montemayor </h2>
