@@ -28,7 +28,11 @@ export default class LandingPage extends React.Component {
       "2 blah blah blah",
       "Cosmopolitan-Curious",
       "Alliterative Aficionado",
-      "Endorphin Enthusiast"
+      "Endorphin Enthusiast",
+      "3 blah blah",
+      "4 blah blah",
+      "Bob lob law",
+       "Place holder"
     ];
     const pairedBlurbs = this.pairBlurbs(this.shuffleBlurbs(blurbArray));
 
@@ -49,6 +53,8 @@ export default class LandingPage extends React.Component {
       { blurb1: input[0], blurb2: input[1] },
       { blurb1: input[2], blurb2: input[3] },
       { blurb1: input[4], blurb2: input[5] },
+      { blurb1: input[6], blurb2: input[7] },
+      { blurb1: input[8], blurb2: input[9] },
       lastBlurbObj
     ];
 

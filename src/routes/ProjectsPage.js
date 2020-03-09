@@ -76,10 +76,10 @@ const projects = renderProjArray(projArray)
 
     return (
         <div className='ProjectsPage'>
-             {/* <Split  className='black' flexBasis={2}>
+             {/* <Split  className='black' flexBasis={1}>
                     
                     </Split>
-                    <Split className='white' flexBasis={2}>
+                    <Split className='white' flexBasis={1}>
                         
                     </Split> */}
             {projects}
