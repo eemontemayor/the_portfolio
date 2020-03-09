@@ -1,0 +1,46 @@
+.side-nav{
+
+  
+    writing-mode: vertical-rl;
+
+    
+    background-color: black;
+  margin: auto;
+    font-size: 1.3em;
+  font-weight: bold;
+  }
+  
+ 
+
+  #cv-link{
+
+    width:fit-content;
+    height: auto;
+    color:white;
+    border-right: .9px solid white;
+    text-orientation: upright;
+    margin:auto;
+    margin-top: 150px;
+  text-decoration: none;
+  
+  }
+  #cv-link:hover{
+    color:rgb(231, 231, 5);
+    border-right: .9px solid  rgb(231, 231, 5);
+  }
+  
+  #contact-link{
+    width:fit-content;
+    height: auto;
+    color:white;
+    border-right: .9px solid white;
+    text-orientation: upright;
+    margin:auto;
+    margin-top: 150px;
+  text-decoration: none;
+  
+  }
+  #contact-link:hover{
+    color:rgb(231, 231, 5);
+    border-right: .9px solid  rgb(231, 231, 5);
+  }

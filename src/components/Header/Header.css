@@ -1,29 +1,21 @@
-.nav-links {
-  font-size: 1.6em;
-  cursor: pointer;
-
- 
-}
 
 
-.nav-links .center p {
-  display: inline-block;
- 
-  cursor: pointer;
-  text-decoration: none;
-}
 
-.center {
+.header-nav{
+
   text-align: center;
-  width: 33.33%;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* display: inline-block; */
   margin: auto;
 }
+
 #q-icon {
+  position:fixed;
 
 top:10px;
 left:10px;
 color:white;
-position:fixed;
 background-color: white;
 height:100px;
 width:100px;
@@ -33,88 +25,39 @@ z-index: 3;
 #q-icon:hover{
   background-color: rgb(128, 66, 230);
 }
-#work-link{
-  width:fit-content;
-  margin-right: 15px;
-color:white;
-border-bottom: .9px solid white;
-}
+
 #about-link{
-  margin-left: 17px;
- 
+  margin-left: 25px;
+ text-decoration: none;
   color: black;
   border-bottom: .9px solid black;
 
+}
+#work-link{
+  text-decoration: none;
+
+  margin-right: 25px;
+color:black;
+border-bottom: .9px solid black;
 }
 #about-link:hover {
   color:rgb(209, 209, 2);
   border-bottom: .9px solid  rgb(231, 231, 5);
  }
+
+
  #work-link:hover{
   
   color:rgb(231, 231, 5);
   border-bottom: .9px solid  rgb(231, 231, 5);
 }
-#cv-link{
-
-  width:fit-content;
-  height: auto;
-  color:white;
-  border-right: .9px solid white;
-  text-orientation: upright;
-  margin:auto;
-  margin-top: 150px;
-text-decoration: none;
-
-}
-#cv-link:hover{
-  color:rgb(231, 231, 5);
-  border-right: .9px solid  rgb(231, 231, 5);
-}
-
-#contact-link{
-  width:fit-content;
-  height: auto;
-  color:white;
-  border-right: .9px solid white;
-  text-orientation: upright;
-  margin:auto;
-  margin-top: 150px;
-text-decoration: none;
-
-}
-#contact-link:hover{
-  color:rgb(231, 231, 5);
-  border-right: .9px solid  rgb(231, 231, 5);
-}
-
-.horizontal-nav{
-  z-index: 2;
-
-}
-.side-nav{
-
-  position:fixed;
-  left:0;
-  writing-mode: vertical-rl;
-  text-decoration: none;
-  /* border-right: 2px solid pink; */
-  background-color: black;
-  height: calc(100vh - 60px);
-  width:50px;
-  z-index: 2;
 
 
-}
 
-.side-nav.nav-links{
-  margin-top: 150px;
-}
+
 @media only screen and (max-width: 760px) {
 
-  .nav-links{
-    font-size: 1em;
-  }
+
   #q-icon{
    height:50px;
    width:50px;

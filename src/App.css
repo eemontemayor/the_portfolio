@@ -1,22 +1,42 @@
 .App__Main{
-    /* min-height: calc(100vh - 60px); */
-    min-height:100vh;
-    height:auto;
-    width: 100%;
-    display: flex;
-    overflow: auto;
+
+
 }
 .App{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 1fr auto;
+    height: 100vh;
     min-height:100vh;
     width:100vw;
-    /* height:auto;
-    width: 100%;  */
+   
 }
 header{
-    height:60px;
-    width:100%;
-    position: fixed;
-    z-index: 2;  
+    grid-column: span 3;
+    padding: 20px;
+
+  /* background-color: #369; */
+  color: white;
 }
 
+main{
+    flex: 1;
+    padding: 20px;
+}
+nav {
+    background-color: black;
+    padding: 20px;
+  }
+  aside {
+    padding: 20px;
+    background-color: #936;
+  }
 
+footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #690;
+    color: white;
+  }

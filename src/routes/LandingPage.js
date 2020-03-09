@@ -118,8 +118,8 @@ export default class LandingPage extends React.Component {
         <div className="circle large" ></div>
    
 
-        <Split className="black"></Split>
-        <Split className="white"></Split>
+        {/* <Split className="black"></Split> */}
+        {/* <Split className="white"></Split> */}
       </div>
     );
   }

@@ -5,41 +5,26 @@ import Split from "../Split/Split";
 import logo from "../../images/logo.png";
 export default function Header() {
   return (
- <>
-      <div className="horizontal-nav">
-          <div className="nav-links">
+
+      <div className='header-nav'>
+
             <NavLink to={"/"}>
              <img src={logo} id="q-icon" alt="home" />
             </NavLink>
 
-            <div className="center">
+            
               <NavLink to={"/projects"} id="work-link">
-                <p>work</p>
+                work
               </NavLink>
 
               <NavLink to={"/about"} id="about-link">
-                <p>about</p>
+                about
               </NavLink>
-            </div>
-        </div>
       </div>
+         
 
-        <div className="side-nav">
-          <div className="nav-links">
-              <NavLink to={"/CV"}id="cv-link">
-                resumé
-
-            
-              </NavLink>
-             <NavLink to={"/contact"}id="contact-link">
-       
-              contact
-     
-            
-              </NavLink>
-          </div>
-            </div>
-     </>
+      
+   
   
   );
 }
