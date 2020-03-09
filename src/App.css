@@ -1,11 +1,16 @@
-.App__Main{
 
-
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+
+@media (min-width: 768px) {
 .App{
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: 100px 1fr auto;
+    grid-template-columns: 80px 1fr 80px;
+    grid-template-rows: 80px 1fr 80px;
     height: 100vh;
     min-height:100vh;
     width:100vw;
@@ -13,10 +18,7 @@
 }
 header{
     grid-column: span 3;
-    padding: 20px;
-
-  /* background-color: #369; */
-  color: white;
+   
 }
 
 main{
@@ -34,9 +36,10 @@ nav {
 
 footer {
     grid-column: span 3;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     font-size: 1.4em;
     background-color: #690;
     color: white;
   }
+}

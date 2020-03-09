@@ -2,14 +2,27 @@
 
 
 .header-nav{
-
-  text-align: center;
+  
+width:100%;
+ 
   font-size: 1.5em;
   font-weight: bold;
-  /* display: inline-block; */
+  
   margin: auto;
 }
+div.left{
 
+  float:left;
+  width:50%;
+  height:80px;
+  background-color: black;
+}
+div .right{
+  height:80px;
+  float:right;
+  width:50vw;
+  background-color: white;
+}
 #q-icon {
   position:fixed;
 
@@ -31,14 +44,18 @@ z-index: 3;
  text-decoration: none;
   color: black;
   border-bottom: .9px solid black;
+  position: relative;
+  top:25px;
 
 }
 #work-link{
+  float: right;
   text-decoration: none;
-
+  position: relative;
+  top:25px;
   margin-right: 25px;
-color:black;
-border-bottom: .9px solid black;
+color:white;
+border-bottom: .9px solid white;
 }
 #about-link:hover {
   color:rgb(209, 209, 2);

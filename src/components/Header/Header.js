@@ -7,7 +7,8 @@ export default function Header() {
   return (
 
       <div className='header-nav'>
-
+      <div className='left'>
+        
             <NavLink to={"/"}>
              <img src={logo} id="q-icon" alt="home" />
             </NavLink>
@@ -16,10 +17,13 @@ export default function Header() {
               <NavLink to={"/projects"} id="work-link">
                 work
               </NavLink>
-
+        </div>
+      <div className='right'>
+        
               <NavLink to={"/about"} id="about-link">
                 about
               </NavLink>
+        </div>
       </div>
          
 
