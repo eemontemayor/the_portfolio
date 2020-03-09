@@ -6,3 +6,253 @@
     display: flex;
 
 }
+
+
+.proj-array{
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proj-details{
+    margin-top:50px;
+    color:white;
+    padding:1rem;
+    text-align: center;
+    padding-bottom:40px;
+  }
+  .proj-item{
+    margin-bottom:10%;
+    border:2px ridge rgb(255, 221, 68);
+    padding:20px;
+    border-radius: 5px;
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(51, 49, 49, 0.924); */
+    background: url('../images/prism.png'); 
+    opacity: .92;
+    max-width:720px;
+    box-shadow: 0 50px 70px rgba(6, 4, 10, 0.7);
+  }
+  .proj-item button{
+    border:1px solid rgb(97, 20, 20);
+    border-radius:10px;
+    font-size:2em;
+    color:rgb(97, 20, 20);
+    font-family: 'Philosopher', 'sans-serif';
+    width: 50%;
+    margin:auto;
+    background-color: rgba(250, 220, 84, 0.822);
+    cursor: pointer;
+    margin-bottom:10px;
+  }
+  .proj-item button:hover{
+    color:red;
+    border:1px solid red;
+  }
+
+
+.proj-icons{
+  float:right;
+  margin-top:20px;
+  
+}
+
+  .proj-item p{
+    font-size: 1.3em;
+    margin-bottom:10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 5vw;
+  }
+  .proj-page{
+    height:100%;
+  }
+  
+  .proj-page-hdr{
+    font-size:3em;
+    text-align: center;
+    font-family: 'Cinzel', 'sans-serif';
+    color:rgb(255, 221, 68);
+    text-shadow: 1px 2px 2px rgb(54, 54, 54);  }
+  
+  .proj-item-link{
+    text-decoration: none;
+    /* display:inline-block; */
+    /* margin-top: 2%; */
+    margin-left:20px;
+    border:1px solid black;
+    color:rgb(97, 20, 20);
+    background-color: rgb(172, 191, 207);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    
+  }
+
+
+.proj-links a{
+  margin-top: auto;
+  margin-bottom: auto;
+  float:left;
+}
+
+
+  .git-link{
+    max-height:35px;
+    
+  }
+  .git-link:hover{
+    cursor: pointer;
+  }
+  .proj-item-img{
+   
+    border-radius:40px;
+    min-height:400px;
+    min-width: fit-content;
+    /* border:1px solid white; */
+    
+   
+  }
+  
+  .spacedRepApp-img{
+    background:url('../images/spaced-rep-app.png')no-repeat center;
+    background-size: contain;
+   
+  
+  }
+  .spacedRepApp-mob{
+    background:url('../images/spaced-rep-app-mob.png') no-repeat center;
+    background-size: contain;
+   
+
+
+  }
+.MealDeal-img{
+  background:url('../images/Meal-Deal.png')no-repeat center;
+  background-size: contain;
+}
+.MealDeal-mob{
+  background:url('../images/Meal-Deal-mob.png') no-repeat center;
+  background-size: contain;
+ 
+
+
+}
+  /* .mealDeal-mob{
+    background:url('../../images/mealDeal-mob.png') no-repeat center;
+    background-size: contain;
+   
+
+
+  }
+  .mealDeal-img{
+    background:url('../../images/mealDeal.jpg')no-repeat center;
+    background-size: contain;
+    
+
+  } */
+  
+  .mimood-mob{
+    background:url('../images/mimood-mob.png') no-repeat center;
+    background-size: contain;
+    
+    
+  }
+  .mimood-img{
+    background:url('../images/mimood.png')no-repeat center;
+    background-size: contain;
+   
+
+  }
+
+  .miNotes-mob{
+    background:url('../images/miNotes-mob.png') no-repeat center;
+    background-size: contain;
+    
+    
+  }
+  .miNotes-img{
+    background:url('../images/miNotes.png')no-repeat center;
+    background-size: contain;
+   
+
+  }
+
+
+ /* .bookmark-img{
+    background-image:url('../../images/bookmarkApp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .noteful-img{
+    background-image:url('../../images/noteful.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+
+
+  @media only screen and (max-width: 760px) {
+
+    
+   
+   .proj-array{
+     min-width: fit-content;
+     min-height: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   .proj-item{
+    padding:5px 7px;
+     width:100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+  .proj-item button{
+    width:100%;
+    font-size:1.5em;
+  
+  }
+  .proj-icons{
+    margin-top:10px;
+  }
+   .proj-icons img{
+     height:30px;
+
+   }
+   
+   
+   
+  
+   .proj-item-img{
+   
+ 
+    min-height:200px;
+    min-width: fit-content;
+    
+    
+   
+  }
+   
+  .proj-details{
+    margin-top:30px;
+    padding:5px;
+  }
+  
+
+  .proj-links a{
+
+    float:none;
+  }
+
+   }
