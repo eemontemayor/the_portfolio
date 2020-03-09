@@ -1,9 +1,12 @@
 "use strict";
 
 import React from "react";
-import Split from "../components/Split/Split";
+
 import "./LandingPage.css";
 import Carousel from "../components/Carousel/Carousel";
+import Split from '../components/Split/Split'
+
+
 export default class LandingPage extends React.Component {
   state = {
     blurb1: "Critical Thinker For Hire",
@@ -118,8 +121,8 @@ export default class LandingPage extends React.Component {
         <div className="circle large" ></div>
    
 
-        {/* <Split className="black"></Split> */}
-        {/* <Split className="white"></Split> */}
+        <Split className="black"></Split>
+        <Split className="white"></Split>
       </div>
     );
   }

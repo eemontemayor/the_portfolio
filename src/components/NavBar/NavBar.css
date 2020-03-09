@@ -44,3 +44,16 @@
     color:rgb(231, 231, 5);
     border-right: .9px solid  rgb(231, 231, 5);
   }
+
+  @media only screen and (max-width: 768px) {
+
+    .side-nav{
+
+  
+      display: none;
+    }
+    
+
+
+    
+  }
