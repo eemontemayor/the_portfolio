@@ -78,13 +78,11 @@ const projects = renderProjArray(projArray)
 
     return (
         <div className='ProjectsPage'>
-             {/* <Split  className='black' flexBasis={1}>
-                    
-                    </Split>
-                    <Split className='white' flexBasis={1}>
-                        
-                    </Split> */}
-            {projects}
+             <h1 className='proj-page-hdr'>Projects</h1>
+                <ul className='proj-array'>    
+                {projects}
+                </ul>
+     
         </div>
     )
     
