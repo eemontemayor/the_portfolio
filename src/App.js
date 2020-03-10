@@ -5,6 +5,7 @@ import ProjectsPage from "./routes/ProjectsPage";
 import AboutPage from "./routes/AboutPage";
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
+import ContactLinks from './components/ContactLinks/ContactLInks'
 import "./App.css";
 export default class App extends Component {
   render() {
@@ -26,7 +27,7 @@ export default class App extends Component {
           </Switch>
         </main>
         <aside>
-          aside
+          <ContactLinks/>
         </aside>
         <footer>
         footer
