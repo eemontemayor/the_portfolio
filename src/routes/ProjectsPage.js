@@ -57,14 +57,16 @@ export default function ProjectsPage(props) {
         let html = proj.map((item, index)=>{
           
             
-            return <li className='proj-item'key={index}>
+            return <li className='proj-item' key={index}><Split>
+                
                 <ProjectItem className={item.className} 
                             title={item.name} 
                             skills={item.skills} 
                             desc={item.desc} 
                             live={item.live}
                             git={item.git}
-                />
+                            />
+                            </Split>
            
             </li>
         })
