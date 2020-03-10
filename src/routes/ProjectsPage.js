@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectsPage.css'
 import Split from '../components/Split/Split'
 import ProjectItem from '../components/ProjectItem/ProjectItem'
-import { render } from '@testing-library/react'
+
 
 
 export default function ProjectsPage(props) {

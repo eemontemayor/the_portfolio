@@ -1,4 +1,3 @@
-"use strict";
 
 import React from "react";
 
@@ -9,8 +8,8 @@ import Split from '../components/Split/Split'
 
 export default class LandingPage extends React.Component {
   state = {
-    blurb1: "Critical Thinker For Hire",
-    blurb2: "Sentient Bag of StarDust",
+    blurb1: '',
+    blurb2: '',
     blurbPairs: []
   };
 
@@ -32,7 +31,9 @@ export default class LandingPage extends React.Component {
       "3 blah blah",
       "4 blah blah",
       "Bob lob law",
-       "Place holder"
+      "Place holder",
+      "Critical Thinker For Hire",
+      "Sentient Bag of StarDust"
     ];
     const pairedBlurbs = this.pairBlurbs(this.shuffleBlurbs(blurbArray));
 
@@ -55,6 +56,7 @@ export default class LandingPage extends React.Component {
       { blurb1: input[4], blurb2: input[5] },
       { blurb1: input[6], blurb2: input[7] },
       { blurb1: input[8], blurb2: input[9] },
+      { blurb1: input[10], blurb2: input[11] },
       lastBlurbObj
     ];
 
@@ -108,7 +110,7 @@ export default class LandingPage extends React.Component {
   };
 
   render() {
-    let blurb1 = this.state.blurb1;
+    let blurb1 = this.state.blurb1 ;
     let blurb2 = this.state.blurb2;
     return (
       <div className="LandingPage">

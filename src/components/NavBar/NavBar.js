@@ -1,24 +1,37 @@
-import React from 'react'
+import React,{Component} from 'react'
 import { NavLink } from "react-router-dom";
+import ContactLinks from '../ContactLinks/ContactLInks'
 import './NavBar.css'
-export default function NavBar() {
-    
+export default class NavBar extends Component {
+    state = {
+        showingIcons: false
+    }
 
-    return (
-        <div className="side-nav">
+    handleClick = () => {
+        this.setState({
+        showIcons:!this.state.showingIcons
+    })
+}
+
+    render() {
+    
+        return (
+            <div className="side-nav">
 
             <NavLink to={"/CV"}id="cv-link">
               resumé
 
           
             </NavLink>
-           <NavLink to={"/contact"}id="contact-link">
+           <NavLink to={"/contact"}id="contact-link" >
      
             contact
-   
-          
+           
+                  
             </NavLink>
+            {this.state.showingIcons && <ContactLinks/>}
         </div>
         
-    )
+        )
+    }
 }
