@@ -51,9 +51,15 @@
 
   
       display: none;
+      
+      writing-mode: horizontal-tb;
+      
+      
+      background-color: black;
+      margin: auto;
+      font-size: 1.3em;
+      font-weight: bold;
     }
-    
-
 
     
   }
