@@ -1,0 +1,19 @@
+.git-link-black{
+    height:26px;
+    margin-bottom: 15px;
+    float:right;
+}
+.contact-links{
+    display: flex;
+    flex-direction: column;
+}
+.email-link{
+    float:right;
+    height:26px;
+    margin-bottom: 15px;
+}
+.linked-in-link{
+    float:right;
+    margin-bottom: 15px;
+    height:26px;
+}

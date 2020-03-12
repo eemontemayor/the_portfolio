@@ -32,8 +32,9 @@ nav {
     padding: 20px;
   }
   aside {
-    padding: 20px;
-    background-color: black
+    padding-right: 15px;
+    background-color: none;
+    text-align:center;
   }
 
 footer {

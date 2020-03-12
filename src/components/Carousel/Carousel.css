@@ -1,9 +1,9 @@
 .blurb1{
-    font-size: 1.2em;
+    font-size: 1.1em;
     animation:fadeIn 2s
 }
 .blurb2{
-    font-size: 1.1em;
+    font-size: 1 em;
     animation: fadeIn 3s;
 }
 @keyframes fadeIn {

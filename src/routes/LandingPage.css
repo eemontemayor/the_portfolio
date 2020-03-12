@@ -102,16 +102,19 @@ section#circ-content {
 }
 
 #circ-content h2.firstName{
-  font-size: 1.1em;
+  font-size: 1.3em;
+  font-family: serif;
+  margin-bottom:inherit;
 
 }
 #circ-content h2.lastName{
-  font-size: 1.2em;
-
+  font-size: 1.4em;
+  margin-top:inherit;
+  font-family: serif;
 }
 #circ-content h1.title{
   color:yellow;
-  font-size: 1.9em;
+  font-size: 2.0em;
   font-family: cursive;
   font-variant: small-caps;
 }

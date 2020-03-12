@@ -8,8 +8,9 @@ import Split from '../components/Split/Split'
 
 export default class LandingPage extends React.Component {
   state = {
-    blurb1: '',
-    blurb2: '',
+    blurb1:    "Critical Thinker For Hire",
+    
+    blurb2:"Sentient Bag of StarDust",
     blurbPairs: []
   };
 
@@ -18,22 +19,24 @@ export default class LandingPage extends React.Component {
   //todo: use styled components to make sure the blurbs fade in
   
   //about me page: image flip on scroll? 
-  //fix mobile before doing projects page
+
+  //fix mobile
+  
+  // add new resume
 
   componentDidMount() {
     const blurbArray = [
       "Whimsical Wordsmith",
-      "1 Blah blah blah",
-      "2 blah blah blah",
+      "Pragmatic Programmer",
       "Cosmopolitan-Curious",
       "Alliterative Aficionado",
       "Endorphin Enthusiast",
+      "Bob lob law",
+      "1 Blah blah blah",
+      "2 blah blah blah",
       "3 blah blah",
       "4 blah blah",
-      "Bob lob law",
-      "Place holder",
-      "Critical Thinker For Hire",
-      "Sentient Bag of StarDust"
+   
     ];
     const pairedBlurbs = this.pairBlurbs(this.shuffleBlurbs(blurbArray));
 
@@ -56,7 +59,7 @@ export default class LandingPage extends React.Component {
       { blurb1: input[4], blurb2: input[5] },
       { blurb1: input[6], blurb2: input[7] },
       { blurb1: input[8], blurb2: input[9] },
-      { blurb1: input[10], blurb2: input[11] },
+     
       lastBlurbObj
     ];
 
