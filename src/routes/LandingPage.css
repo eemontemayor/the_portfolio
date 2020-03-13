@@ -2,8 +2,15 @@
 
 
 
-
-
+.LandingPage .white{
+  /* background-image: url('../images/white-background.jpg');
+  background-size: contain; */ 
+  background-color: white;
+}
+.LandingPage .black{
+  /* background-image: url('../images/prism.png'); */
+  
+}
 .LandingPage{
 
     /* background-color: black; */
@@ -13,7 +20,7 @@
   height:100%;
 }
 .circle{
-  opacity:.95;
+  /* opacity:.95; */
   
   position: fixed;
   top: 0;
@@ -25,42 +32,67 @@ margin: auto;
 }
  
 .circle.large{
-  opacity:.8;
-  width: 600px;
-  height: 600px;
-  background-color: #FFE53B;
+
+
+
+
+
+/* 
+  box-shadow:
+  0 0 60px 30px #fff,
+  0 0 100px 60px #f0f,
+  0 0 140px 90px #0ff; */
+  opacity:.98;
+  width: 650px;
+  height: 650px;
+  /* background-color: #FFE53B; */
   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   
-  border-radius: 300px;
+
+
+
+  border-radius: 325px;
 
   animation-name:spin-ccw;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 
   
 }
 .circle.medium{
-  opacity:.9;
-  width: 550px;
-  height: 550px;
-  background-color: #FEE140;
+  
+  /* box-shadow:
+  inset 0 0 60px whitesmoke,
+  inset 20px 0 80px #f0f,
+  inset -20px 0 80px #0ff,
+  inset 20px 0 300px #f0f,
+  inset -20px 0 300px #0ff,
+  0 0 50px #fff,
+  -10px 0 80px #f0f,
+  10px 0 80px #0ff; */
+
+
+  opacity:.98;
+  width: 600px;
+  height: 600px;
+  /* background-color: #FEE140; */
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 
-  border-radius: 275px;
+  border-radius: 300px;
   /* z-index: 1; */
 
   animation-name:spin-cw;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 
 }
 .circle.small{
 
-  opacity:.8;
+  opacity:.90;
   width: 500px;
   height: 500px;
   background-color: black;
