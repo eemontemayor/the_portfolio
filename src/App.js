@@ -30,7 +30,8 @@ export default class App extends Component {
           <ContactLinks/>
         </aside>
         <footer>
-        footer
+        
+
         </footer>
       </div>
     );

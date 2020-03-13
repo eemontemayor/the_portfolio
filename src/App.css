@@ -9,16 +9,22 @@
 }
 
 aside{
-  position:absolute;
+  /* position:absolute; */
   width:100%;
   height:auto;
   bottom:0;
-
+  padding-bottom:5px;
 }
 
-aside a{
- 
+
+footer{
+  /* display: none; */
 }
+
+
+
+
+/* DESKTOP STYLES */
 @media (min-width: 768px) {
 .App{
     display: grid;
@@ -43,9 +49,8 @@ nav {
     padding: 20px;
   }
   aside {
-    padding-right: 15px;
-    background-color: none;
-    text-align:center;
+
+    margin:auto;
   }
 
 footer {
