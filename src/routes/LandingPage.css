@@ -77,11 +77,11 @@ margin: auto;
   opacity:.98;
   width: 600px;
   height: 600px;
-  /* background-color: #FEE140; */
-background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);;
 
   border-radius: 300px;
-  /* z-index: 1; */
+  
 
   animation-name:spin-cw;
   animation-timing-function: linear;

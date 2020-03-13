@@ -78,7 +78,7 @@ const projects = renderProjArray(projArray)
 
     return (
         <div className='ProjectsPage'>
-             <h1 className='proj-page-hdr'>Projects</h1>
+             <h1 className='proj-page-hdr'>Projects</h1><br/>
                 <ul className='proj-array'>    
                 {projects}
                 </ul>

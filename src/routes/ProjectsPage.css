@@ -1,18 +1,18 @@
 .ProjectsPage{
-    height: 100%;
+    height: auto;
     width: 100%;
-    background-color: black;
+ 
    
-    display: flex;
+
+    
 
 }
 
 
 .proj-array{
-    height: 100%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    width: 100%;
+    
   }
   .proj-details{
     margin-top:50px;
@@ -22,15 +22,15 @@
     padding-bottom:40px;
   }
   .proj-item{
-    margin-bottom:10%;
+    margin-bottom:5%;
     border:2px ridge rgb(255, 221, 68);
     padding:20px;
-    border-radius: 5px;
+    border-radius: 10px;
     width:100%;
     height:auto;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgba(51, 49, 49, 0.924); */
+    background-color: rgb(51, 49, 49);
 
     opacity: .92;
     max-width:720px;
@@ -43,14 +43,14 @@
     color:rgb(97, 20, 20);
     font-family: 'Philosopher', 'sans-serif';
     width: 50%;
-    margin:auto;
+  
     background-color: rgba(250, 220, 84, 0.822);
     cursor: pointer;
     margin-bottom:10px;
   }
   .proj-item button:hover{
-    color:red;
-    border:1px solid red;
+    color:rgb(128, 66, 230);
+    border:1px solid rgb(128, 66, 230);
   }
 
 
@@ -66,24 +66,20 @@
   }
   ul {
     list-style-type: none;
-    margin: auto;
-    padding: 5vw;
+   
   }
-  .proj-page{
-    height:100%;
-  }
+  
   
   .proj-page-hdr{
     font-size:3em;
-    text-align: center;
+   text-align: center;
     font-family: 'Cinzel', 'sans-serif';
     color:rgb(255, 221, 68);
     text-shadow: 1px 2px 2px rgb(54, 54, 54);  }
   
   .proj-item-link{
     text-decoration: none;
-    /* display:inline-block; */
-    /* margin-top: 2%; */
+  
     margin-left:20px;
     border:1px solid black;
     color:rgb(97, 20, 20);
@@ -114,7 +110,7 @@
     border-radius:40px;
     min-height:400px;
     min-width: fit-content;
-    /* border:1px solid white; */
+  
     
    
   }
