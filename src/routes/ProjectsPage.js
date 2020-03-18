@@ -83,6 +83,7 @@ const projects = renderProjArray(projArray)
                 {projects}
                 </ul>
      
+    
         </div>
     )
     

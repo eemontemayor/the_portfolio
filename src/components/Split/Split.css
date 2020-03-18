@@ -6,6 +6,7 @@
   }
   .white {
     /* border: 2px solid black; */
+    /* box-shadow: 2px grey; */
     background-color: white;
   color: black;
   
@@ -17,9 +18,14 @@
       
 }
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 760px) {
+  .black {
+    border: none;
+    color: azure;
+    background-color: black;
+      
+}
 .split{
-  /* flex: none; */
+  flex: auto;
 }
 }

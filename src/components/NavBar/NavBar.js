@@ -23,9 +23,9 @@ export default class NavBar extends Component {
 
           
             </NavLink>
-           <NavLink to={"/contact"}id="contact-link" >
+           <NavLink to={"/misc"}id="misc-link" >
      
-            contact
+            misc
            
                   
             </NavLink>

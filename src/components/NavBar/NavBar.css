@@ -29,7 +29,7 @@
     border-right: .9px solid  rgb(231, 231, 5);
   }
   
-  #contact-link{
+  #misc-link{
     width:fit-content;
     height: auto;
     color:white;
@@ -40,7 +40,7 @@
   text-decoration: none;
   
   }
-  #contact-link:hover{
+  #misc-link:hover{
     color:rgb(231, 231, 5);
     border-right: .9px solid  rgb(231, 231, 5);
   }
