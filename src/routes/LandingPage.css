@@ -8,8 +8,9 @@
   background-color: white;
 }
 .LandingPage .black{
+  background-color: black;
   /* background-image: url('../images/prism.png'); */
-  
+  /* background-image: url('../images/dark-honeycomb.png'); */
 }
 .LandingPage{
 
@@ -49,9 +50,9 @@ margin: auto;
   width: 600px;
   height: 600px;
   /* background-color: #FFE53B; */
-  background-color: #FFFFFF;
-background-image: linear-gradient(93deg, #FFFFFF 0%, #ffffff 33%, #d2d0d0 66%, #ede8e8 100%);
-
+  background-color: black;
+  background-image: linear-gradient(180deg, #ffffff 0%, #7c7c7d 50%, #1f0c0c 100%);
+  
 
 
 
@@ -81,17 +82,16 @@ background-image: linear-gradient(93deg, #FFFFFF 0%, #ffffff 33%, #d2d0d0 66%, #
   opacity:.95;
   max-width: 600px;
   max-height: 600px;
-
-  background-color: #FFFFFF;
-background-image: linear-gradient(93deg, #FFFFFF 0%, #ffffff 33%, #d2d0d0 66%, #ede8e8 100%);
-
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #7c7c7d 50%, #1f0c0c 100%);
+  
   border-radius: 300px;
   
 
   animation-name:spin-cw;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 
 }
