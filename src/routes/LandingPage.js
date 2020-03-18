@@ -117,6 +117,7 @@ export default class LandingPage extends React.Component {
     let blurb2 = this.state.blurb2;
     return (
       <div className="LandingPage">
+        <div className="circle small-wrapper">
         <div className="circle small" onClick={this.handleClick}>
              <section className='circle' id="circ-content">
           
@@ -126,6 +127,8 @@ export default class LandingPage extends React.Component {
           <h1 className='title'>Full Stack Developer</h1>
           <Carousel blurb1={blurb1} blurb2={blurb2} />
         </section>
+
+        </div>
 
         </div>
         <div className="circle medium"></div>

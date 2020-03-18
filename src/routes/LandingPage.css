@@ -14,7 +14,10 @@
 .LandingPage{
 
     /* background-color: black; */
-  
+  /* display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  height:calc(100vh - 130px); */
     display: flex;
   width:100%;
   height:100%;
@@ -42,21 +45,22 @@ margin: auto;
   0 0 60px 30px #fff,
   0 0 100px 60px #f0f,
   0 0 140px 90px #0ff; */
-  opacity:.98;
-  width: 650px;
-  height: 650px;
+  opacity:.90;
+  width: 600px;
+  height: 600px;
   /* background-color: #FFE53B; */
-  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-  
+  background-color: #FFFFFF;
+background-image: linear-gradient(93deg, #FFFFFF 0%, #ffffff 33%, #d2d0d0 66%, #ede8e8 100%);
 
 
 
-  border-radius: 325px;
+
+  border-radius: 300px;
 
   animation-name:spin-ccw;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 
   
@@ -74,11 +78,12 @@ margin: auto;
   10px 0 80px #0ff; */
 
 
-  opacity:.98;
-  width: 600px;
-  height: 600px;
+  opacity:.95;
+  max-width: 600px;
+  max-height: 600px;
 
-  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);;
+  background-color: #FFFFFF;
+background-image: linear-gradient(93deg, #FFFFFF 0%, #ffffff 33%, #d2d0d0 66%, #ede8e8 100%);
 
   border-radius: 300px;
   
@@ -86,20 +91,28 @@ margin: auto;
   animation-name:spin-cw;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 
 }
 .circle.small{
 
-  opacity:.90;
+  /* opacity:.90; */
   width: 500px;
   height: 500px;
-  background-color: black;
+  background-color: transparent;
   border-radius: 250px;
  z-index: 2;
 }
 
+.circle.small-wrapper{
+  opacity:.90;
+  width: 560px;
+  height: 560px;
+  background-color: black;
+  border-radius: 280px;
+ z-index: 1;
+}
 @keyframes spin-ccw {
   from {  transform: rotate(0deg);}
   to {  transform: rotate(-360deg);}
