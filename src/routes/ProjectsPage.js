@@ -23,16 +23,6 @@ export default function ProjectsPage(props) {
         },
 
         {
-            className:'spacedRepApp',
-            name:'Reps',
-            desc:'Learn a language with a spaced repetition algorithm',
-            img:'images/spaced-rep-app.png',
-            git:'https://github.com/eemontemayor/spaced-rep',
-            live:'https://reps.eemontemayor.now.sh/landing',
-         
-
-        },
-        {
             className:'MealDeal',
             name: 'Meal Deal 2.0',
             desc:'Plan out your meals on a calendar with some added features and enhanced UI',
@@ -41,6 +31,16 @@ export default function ProjectsPage(props) {
             live:'https://the-meal-deal.now.sh/',
          
             
+        },
+        {
+            className:'spacedRepApp',
+            name:'Reps',
+            desc:'Learn a language with a spaced repetition algorithm',
+            img:'images/spaced-rep-app.png',
+            git:'https://github.com/eemontemayor/spaced-rep',
+            live:'https://reps.eemontemayor.now.sh/landing',
+         
+
         },
         {
             className:'miNotes',

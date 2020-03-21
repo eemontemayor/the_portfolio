@@ -23,13 +23,13 @@ export default class NavBar extends Component {
 
           
             </NavLink>
-           <NavLink to={"/misc"}id="misc-link" >
+           {/* <NavLink to={"/misc"}id="misc-link" >
      
             misc
            
                   
             </NavLink>
-            {this.state.showingIcons && <ContactLinks/>}
+            {this.state.showingIcons && <ContactLinks/>} */}
         </div>
         
         )

@@ -1,33 +1,41 @@
-.git-link-black{
-    height:26px;
-    width:26px;
-    margin:15px 10px 15px 10px;
-    /* float:right; */
 
-}
 .contact-links{
     display: flex;
     flex-direction: column;
     max-width:35px;
     margin: auto;
 }
+.git-link-black{
+    height:26px;
+    width:26px;
+    margin:15px 10px 15px 10px;
+    /* float:right; */
+    opacity:.7;
+}
+
  .email-link{
+    opacity:.7;
     /* float:right; */
     height:26px;
     width:26px;
     margin:15px 10px 15px 10px;
 }
 .linked-in-link{
+    opacity:.7;
     /* float:right; */
     width:26px;
     margin:15px 10px 15px 10px;
     height:26px;
 }
 
-
-@media only screen and (max-width: 768px) {
+.contact-links *:hover{
+  opacity: 1;
+}
+/* MOBILE STYLES */
+@media only screen and (max-width: 770px) {
 
     .contact-links{
+        opacity: 1;
        margin:auto;
        min-width: 100%;
        height:50px;
