@@ -118,9 +118,13 @@
   .spacedRepApp-img{
     background:url('../images/spaced-rep-app.png')no-repeat center;
     background-size: contain;
-   
-  
   }
+
+  .spacedRepApp-img:hover{
+    background:url('../images/spaced-rep-app-mob.png') no-repeat center;
+    background-size: contain;
+  }
+
   .spacedRepApp-mob{
     background:url('../images/spaced-rep-app-mob.png') no-repeat center;
     background-size: contain;
@@ -132,6 +136,14 @@
   background:url('../images/Meal-Deal.png')no-repeat center;
   background-size: contain;
 }
+.MealDeal-img:hover{
+  background:url('../images/Meal-Deal-mob.png') no-repeat center;
+  background-size: contain;
+ 
+
+
+}
+
 .MealDeal-mob{
   background:url('../images/Meal-Deal-mob.png') no-repeat center;
   background-size: contain;
@@ -165,7 +177,12 @@
    
 
   }
-
+  .mimood-img:hover{
+    background:url('../images/mimood-mob.png') no-repeat center;
+    background-size: contain;
+    
+    
+  }
   .miNotes-mob{
     background:url('../images/miNotes-mob.png') no-repeat center;
     background-size: contain;
@@ -178,7 +195,12 @@
    
 
   }
-
+  .miNotes-img:hover{
+    background:url('../images/miNotes-mob.png') no-repeat center;
+    background-size: contain;
+    
+    
+  }
 
  /* .bookmark-img{
     background-image:url('../../images/bookmarkApp.jpg');
