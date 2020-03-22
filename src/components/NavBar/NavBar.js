@@ -17,12 +17,12 @@ export default class NavBar extends Component {
     
         return (
             <div className="side-nav">
-
-            <NavLink to={"/CV"}id="cv-link">
+                <a id="cv-link" href='https://resume.creddle.io/resume/i91skt608e'>resumé</a>
+            {/* <NavLink to={"/CV"}id="cv-link">
               resumé
 
           
-            </NavLink>
+            </NavLink> */}
            {/* <NavLink to={"/misc"}id="misc-link" >
      
             misc
