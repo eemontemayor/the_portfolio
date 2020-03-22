@@ -30,7 +30,7 @@ margin: auto;
 }
  
 .circle.large{
-
+  box-shadow: 10px 10px red;
   opacity:.93;
   width: 600px;
   height: 600px;
@@ -47,7 +47,7 @@ margin: auto;
   animation-fill-mode: backwards;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-z-index: 0;
+z-index: 1;
   
 }
 .circle.medium{
@@ -69,7 +69,7 @@ z-index: 0;
   animation-fill-mode: backwards;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-z-index: 1;
+z-index: 2;
 }
 
 
@@ -79,7 +79,7 @@ z-index: 1;
   height: 560px;
   border-radius: 280px;
  
- z-index: 2;
+ z-index: 3;
 }
 .circle.small{
 
@@ -89,7 +89,7 @@ z-index: 1;
   background-color: transparent;
   
   border-radius: 250px;
- z-index: 2;
+ z-index: 4;
 }
 @keyframes spin-ccw {
   from {  transform: rotate(0deg);}
@@ -118,7 +118,7 @@ section#circ-content {
 
  
  font-size: 1.5em;
- 
+ z-index: 5;
 }
 #circ-content h2{
 
