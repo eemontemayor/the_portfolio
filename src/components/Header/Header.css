@@ -36,7 +36,7 @@ border-radius: 50px;
 z-index: 3;
 }
 #q-icon:hover{
-  background-color: rgb(128, 66, 230);
+  background-color: #9980FA;
 }
 
 #about-link{
@@ -58,15 +58,15 @@ color:white;
 border-bottom: .9px solid white;
 }
 #about-link:hover {
-  color:rgb(128, 66, 230);
-  border-bottom: .9px solid rgb(128, 66, 230);
+  color:#9980FA;
+  border-bottom: .9px solid #9980FA;
  }
 
 
  #work-link:hover{
   
-  color:rgb(231, 231, 5);
-  border-bottom: .9px solid  rgb(231, 231, 5);
+  color:#FFC312;
+  border-bottom: .9px solid #FFC312;
 }
 
 

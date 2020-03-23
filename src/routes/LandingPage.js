@@ -22,16 +22,16 @@ export default class LandingPage extends React.Component {
 
   //fix mobile
   
-  // add new resume
+
 
   componentDidMount() {
     const blurbArray = [
       "Whimsical Wordsmith",
       "Pragmatic Programmer",
-      "Cosmopolitan-Curious",
+   
       "Alliterative Aficionado",
       "Endorphin Enthusiast",
-      "Bob lob law",
+      
     
    
     ];
@@ -53,9 +53,7 @@ export default class LandingPage extends React.Component {
     let result = [
       { blurb1: input[0], blurb2: input[1] },
       { blurb1: input[2], blurb2: input[3] },
-      { blurb1: input[4], blurb2: input[5] },
-  
-     
+      // { blurb1: input[4], blurb2: input[5] },
       lastBlurbObj
     ];
 
@@ -109,6 +107,7 @@ export default class LandingPage extends React.Component {
   };
 
   render() {
+    const blurbArr = this.state.blurbPairs
     let blurb1 = this.state.blurb1 ;
     let blurb2 = this.state.blurb2;
     return (
@@ -121,7 +120,7 @@ export default class LandingPage extends React.Component {
             <h2 className="lastName">Montemayor </h2>
          
           <h1 className='title'>Full Stack Developer</h1>
-          <Carousel blurb1={blurb1} blurb2={blurb2} />
+              <Carousel blurb1={blurb1} blurb2={blurb2} />
         </section>
 
         </div>

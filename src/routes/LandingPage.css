@@ -30,7 +30,7 @@ margin: auto;
 }
  
 .circle.large{
-  box-shadow: 10px 10px red;
+  box-shadow: 2px 5px #EA2027;
   opacity:.93;
   width: 600px;
   height: 600px;
@@ -125,22 +125,30 @@ section#circ-content {
 }
 
 #circ-content h2.firstName{
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: serif;
   margin-bottom:inherit;
 
 }
 #circ-content h2.lastName{
-  font-size: 1.4em;
+  font-size: 1.5em;
   margin-top:inherit;
   font-family: serif;
 }
 #circ-content h1.title{
-  color:yellow;
+  color:#FFC312;
   font-size: 2.0em;
   font-family: cursive;
   font-variant: small-caps;
 }
+
+
+
+
+
+
+
+
 /* MOBILE STYLES */
 @media only screen and (max-width: 770px) {
   .LandingPage{
