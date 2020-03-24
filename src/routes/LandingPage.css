@@ -30,17 +30,18 @@ margin: auto;
 }
  
 .circle.large{
-  box-shadow: 2px 5px #EA2027;
+  box-shadow: 4px 7px  rgba(234, 32, 39, 0.801);
   opacity:.93;
-  width: 600px;
-  height: 600px;
-  /* background-color: #FFE53B; */
+  
+  max-width: 560px;
+  max-height: 560px;
+  border-radius: 280px;
+
   background-color: #FFFFFF;
   background-image: linear-gradient(180deg, #FFFFFF 0%,#dadada 3%, #0c0a0a 15%, #0c0a0a 39%, #0a0404 60%, #0a0808 80%, #000000 100%);
   
 
 
-  border-radius: 300px;
 
   animation-name:spin-ccw;
   animation-timing-function: linear;
@@ -55,13 +56,13 @@ z-index: 1;
 
 
   opacity:.93;
-  max-width: 580px;
-  max-height: 580px;
-  /* background-color: black; */
+  max-width: 540px;
+  max-height: 540px;
+  border-radius: 270px;
+
   background-color: #464646;
   background-image: linear-gradient(180deg, #464646 0%,#040404 12%, #040404 19%, #0c0a0a 39%, #0a0404 60%, #0a0808 80%, #000000 100%);
   
-  border-radius: 290px;
   
 
   animation-name:spin-ccw;
@@ -75,9 +76,9 @@ z-index: 2;
 
 .circle.small-wrapper{
   opacity:.99;
-  width: 560px;
-  height: 560px;
-  border-radius: 280px;
+  max-width: 530px;
+  max-height: 530px;
+  border-radius: 265px;
  
  z-index: 3;
 }
@@ -86,20 +87,11 @@ z-index: 2;
   opacity:.99;
   width: 500px;
   height: 500px;
-  background-color: transparent;
   
   border-radius: 250px;
+  background-color: transparent;
  z-index: 4;
 }
-@keyframes spin-ccw {
-  from {  transform: rotate(0deg);}
-  to {  transform: rotate(-360deg);}
-}
-@keyframes spin-cw {
-    from {  transform: rotate(0deg);}
-    to {  transform: rotate(360deg);}
-  }
-
 
 .circle.small:hover{
   opacity: 1;
@@ -120,6 +112,17 @@ section#circ-content {
  font-size: 1.5em;
  z-index: 5;
 }
+@keyframes spin-ccw {
+  from {  transform: rotate(0deg);}
+  to {  transform: rotate(-360deg);}
+}
+@keyframes spin-cw {
+    from {  transform: rotate(0deg);}
+    to {  transform: rotate(360deg);}
+  }
+
+
+
 #circ-content h2{
 
 }
@@ -161,13 +164,17 @@ section#circ-content {
 
 }
 .circle.small-wrapper{
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+
+
+    width: 310px;
+    height: 310px;
+    border-radius: 155px;
 
 }
   .circle.large{
-  display: none;
+    width: 330px;
+    height: 330px;
+    border-radius: 165px;
   }
   .circle.small{
     width: 300px;

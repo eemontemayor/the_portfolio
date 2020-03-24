@@ -23,7 +23,7 @@
   }
   .proj-item{
     margin-bottom:5%;
-    border:2px ridge rgb(255, 221, 68);
+    border:3px ridge#FFC312;;
     padding:20px;
     border-radius: 10px;
     width:100%;
@@ -31,6 +31,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(51, 49, 49);
+    color: #FFC312;
 
     opacity: .92;
     max-width:720px;
@@ -44,7 +45,7 @@
     font-family: 'Philosopher', 'sans-serif';
     width: 50%;
   
-    background-color: rgba(250, 220, 84, 0.822);
+    background-color: #FFC312;
     cursor: pointer;
     margin-bottom:10px;
   }
@@ -71,10 +72,10 @@
   
   
   .proj-page-hdr{
-    font-size:3em;
+    font-size:3.2em;
    text-align: center;
     font-family: 'Cinzel', 'sans-serif';
-    color:rgb(255, 221, 68);
+    color: #FFC312;
     text-shadow: 1px 2px 2px rgb(54, 54, 54);  }
   
   .proj-item-link{
