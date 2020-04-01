@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { NavLink, Link, Route, Switch } from "react-router-dom";
+import { 
+  // NavLink, Link, 
+  Route, Switch } from "react-router-dom";
 import LandingPage from "./routes/LandingPage";
 import ProjectsPage from "./routes/ProjectsPage";
 import AboutPage from "./routes/AboutPage";

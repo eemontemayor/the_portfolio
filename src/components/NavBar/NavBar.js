@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
-import { NavLink } from "react-router-dom";
-import ContactLinks from '../ContactLinks/ContactLInks'
+// import { NavLink } from "react-router-dom";
+// import ContactLinks from '../ContactLinks/ContactLInks'
 import './NavBar.css'
 export default class NavBar extends Component {
     state = {

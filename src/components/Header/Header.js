@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import Split from "../Split/Split";
+// import Split from "../Split/Split";
 import logo from "../../images/logo.png";
 export default function Header() {
   return (

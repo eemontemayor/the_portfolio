@@ -107,7 +107,7 @@ export default class LandingPage extends React.Component {
   };
 
   render() {
-    const blurbArr = this.state.blurbPairs
+    // const blurbArr = this.state.blurbPairs
     let blurb1 = this.state.blurb1 ;
     let blurb2 = this.state.blurb2;
     return (
