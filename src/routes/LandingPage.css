@@ -30,7 +30,7 @@ margin: auto;
 }
  
 .circle.large{
-  box-shadow: 4px 7px  rgba(234, 32, 39, 0.801);
+  /* box-shadow: 4px 7px  rgba(234, 32, 39, 0.801); */
   opacity:.93;
   
   max-width: 560px;
